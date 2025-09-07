@@ -18,7 +18,7 @@ class ABCSiComboBox(SiWidget):
     menuClosed = pyqtSignal()
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+        super(ABCSiComboBox, self).__init__(*args, **kwargs)
 
         self.attachment_ = None
         self.menu_ = None
